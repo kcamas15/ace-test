@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/OfficeDev/microsoft-teams-app-schema/preview/DevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "id": "aef94590-46b9-11ee-a010-bf652aaba2d1",
+  "version": "0.0.1",
+  "packageName": "acetest",
+  "developer": {
+    "name": "Microsoft",
+    "websiteUrl": "https://7628-2605-ad80-60-10cd-cd12-3c21-8abc-8abb.ngrok.io",
+    "privacyUrl": "https://7628-2605-ad80-60-10cd-cd12-3c21-8abc-8abb.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://7628-2605-ad80-60-10cd-cd12-3c21-8abc-8abb.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "ace test",
+    "full": "ace test"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://7628-2605-ad80-60-10cd-cd12-3c21-8abc-8abb.ngrok.io/aceTestTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "7628-2605-ad80-60-10cd-cd12-3c21-8abc-8abb.ngrok.io",
+    "*.ngrok.io"
+  ],
+  "showLoadingIndicator": true
+}
